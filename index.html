@@ -6,46 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>GifTastic</title>
-
-
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  
- </head>
+</head>
 <body>
-
-<div class="container">
-    <h1>Giphy Search</h1>
-
-    <!-- Gifs will get dumped here -->
-    <div id="gif-view"></div>
-
-    <form id="gif-form">
-      <label for="gif-input">Search for a GIF</label>
-      <input type="text" id="gif-input"><br>
-
-      <!-- Button triggers new gif to be added -->
-      <input id="add-gif" type="submit" value="Add a Gif">
-    </form>
-</div>
-
-
+    <div class="container">
+        <h1>Giphy Search</h1>
+        <!-- Gifs will get dumped here -->
+      <div class="row">
+         <div id="gif-view"></div>
+      </div>
+      <div class="row">
+          <form id="gif-form" action="">
+            <label for="gif-input">Search for a GIF</label>
+            <input type="text" id="gif-input" required><br>
+          
+            <!-- Button triggers new gif to be added -->
+            <input id="add-gif" type="submit" class="btn btn-info" value="Submit Gif">
+          </form>
+      </div>
+      <div class="row">
+          <div class="view"></div>
+      </div>
+    </div>
+          <!-- Added link to the jQuery Library -->
+      <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+      <!-- Link to Javascript: log at bottom to ensure html has loaded before logic --> 
+     <script type="text/javascript" src="assets/javascript/script.js"></script> 
   
- 
-            
-      
- 
-
-
-     <!-- Added a link to Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-      <!-- Added link to the jQuery Library -->
-  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-
-  <!-- Link to Javascript: log at bottom to ensure html has loaded before logic --> 
- <script type="text/javascript" src="assets/javascript/script.js"></script> 
-    
- 
- 
-</body>
+    </body>
 </html> 

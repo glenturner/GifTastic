@@ -1,4 +1,25 @@
-button, div, form, input {
-      margin: 10px;
-      
-    }
+body {
+	background-color: black;
+	color: deeppink;
+}
+
+
+/*.container {
+	width: 100%;
+	margin: auto;
+	background-color: black;
+	color: deeppink;
+}*/
+ .gif {
+ 	margin: 10px;
+ }
+
+ .row {
+ 	margin: 25px;
+ }
+
+ .giphys {
+ 	height: 150px;
+ 	width: 150px;
+ 	margin: 10px;
+ }
