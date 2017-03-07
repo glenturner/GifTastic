@@ -56,7 +56,7 @@ var topics = ["music", "sports", "tvShows", "Ufc", "animals"];
       	// We build out our URL // 
       	var gifName = $(this).attr("data-name");
       	console.log(gifName);
-      	var queryURL = "http://api.giphy.com/v1/gifs/search?q="+ gifName + "&api_key=dc6zaTOxFJmzC&limit=10";
+      	var queryURL = "https://api.giphy.com/v1/gifs/search?q="+ gifName + "&api_key=dc6zaTOxFJmzC&limit=10";
       	// Make a request // 
     	$.ajax({
       		url: queryURL,
