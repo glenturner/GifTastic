@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
 
-var topics = ["music", "sports", "tvShows", "Ufc", "animals"];
+var topics = ["Music", "Sports", "TVShows", "UFC", "Animals"];
 
   
       /*function alertGifName() {
@@ -94,26 +94,10 @@ var topics = ["music", "sports", "tvShows", "Ufc", "animals"];
       			$(this).attr('src', $(this).attr('data-still'));
       			$(this).attr('data-state', "still");
       		}
-/*      		currentStillGifs = */
+
    		}); // end of click function // 
       // Calling the renderButtons function to display the intial buttons
       renderButtons();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
