@@ -1,6 +1,7 @@
+
 body {
-	background-color: black;
-	color: deeppink;
+    background-color: black;
+    color: deeppink;
 }
 
 
@@ -10,16 +11,16 @@ body {
 	background-color: black;
 	color: deeppink;
 }*/
- .gif {
- 	margin: 10px;
- }
+.gif {
+    margin: 10px;
+}
 
- .row {
- 	margin: 25px;
- }
+.row {
+    margin: 25px;
+}
 
- .giphys {
- 	height: 150px;
- 	width: 150px;
- 	margin: 10px;
- }
+.giphys {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
